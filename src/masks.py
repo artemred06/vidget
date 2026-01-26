@@ -20,6 +20,3 @@ def get_mask_account(account: int) -> str:
     mask_account = "**" + account[-4:]
     return mask_account
 
-
-account = input()
-print(get_mask_account(account))
